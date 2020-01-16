@@ -1,37 +1,32 @@
-## PAGINA DE TESTE
+<html>
+<div class="form-row">
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
-You can use the [editor on GitHub](https://github.com/kerovinho/Salesforce/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<input type=hidden name="oid" value="00D6g000003uKs2">
+<input type=hidden name="retURL" value="https://kerovinho.github.io/Salesforce/">
 
-### Markdown
+Nome:<input  id="00N6g00000GcIia" maxlength="255" name="00N6g00000GcIia" size="20" type="text" /><br>
+</div>
+<div class="form-row">
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+<label for="phone">Telefone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
-# Header 1
-## Header 2
-### Header 3
+<label for="city">Cidade</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
 
-- Bulleted
-- List
+<label for="state">Estado/província</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
 
-1. Numbered
-2. List
+Selecione o Assunto:<select  id="00N6g00000GcIik" name="00N6g00000GcIik" title="Selecione o Assunto"><option value="">-- Nenhum --</option><option value="Contato, Empreendimentos, Sugestões, Administrativos, Marketing">Contato, Empreendimentos, Sugestões, Administrativos, Marketing</option>
+</select><br>
 
-**Bold** and _Italic_ and `Code` text
+Mensagem:<input  id="00N6g00000GcIif" maxlength="255" name="00N6g00000GcIif" size="20" type="text" /><br>
 
-[Link](url) and ![Image](src)
-```
+<input type="submit" name="submit">
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+</form>
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kerovinho/Salesforce/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
